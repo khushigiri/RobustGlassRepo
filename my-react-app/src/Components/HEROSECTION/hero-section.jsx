@@ -11,9 +11,9 @@ const HEROSECTION = () => {
         <section className='hero-section'>
             <div id="carouselExampleFade" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Go to Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Go to Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Go to Slide 3"></button>
                 </div>
 
                 <div className="carousel-inner">
@@ -29,16 +29,22 @@ const HEROSECTION = () => {
                                     <div>
                                         <ul>
                                             <li>
-                                                <i className="fa-regular fa-circle-check"></i> High Durability & Thermal Resistance
+                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> High Durability & Thermal Resistance
                                             </li>
                                             <li>
-                                                <i className="fa-regular fa-circle-check"></i> Strict Quality & Processing Standards
+                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> Strict Quality & Processing Standards
                                             </li>
                                         </ul>
                                     </div>
                                     <div className='slide-btns'>
-                                        <button>Get in Touch With Us</button>
-                                        <button>Explore Products</button>
+                                        <button className='hero-btn-1' aria-label="Get in touch via WhatsApp">
+                                            <a href='#form-section'>Get in Touch With Us</a>
+                                        </button>
+                                        <button className='hero-btn-2'>
+                                            <a href='#our-products'>
+                                                Explore Products
+                                            </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +61,11 @@ const HEROSECTION = () => {
                                     <div className='slide-heading'>Customized Glass Solutions</div>
                                     <div>We specialize in crafting custom-sized, finely finished glass solutions to meet the specific needs of architects, interior designers, and project developers — with precise cuts, finishes, and edge treatments.</div>
                                     <div className='slide-btns'>
-                                        <button className="diagonal-bar-fill" style={{ marginTop: '20px' }}>About Us</button>
+                                        <button className="hero-btn-1" style={{ marginTop: '20px' }}>
+                                            <a href='#about-us'>
+                                                About Us
+                                            </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -70,20 +80,28 @@ const HEROSECTION = () => {
                                 <div className=" slide-container" >
                                     <div className='quote'>Need dependable supply for your projects?</div>
                                     <div className='slide-heading'>Reliable Delivery &  Support</div>
-                                    <div className='slide-info'>Robust Glass Pvt. Ltd. ensures safe packaging, timely dispatch, and full support for dealers and distributors. We are committed to delivering glass products with zero compromise on quality, wherever you are.</div>
+                                    <div className='slide-info'>
+                                        Robust Glass Pvt. Ltd. ensures safe packaging, timely nationwide delivery, and reliable support for our dealers and distributors. We’re committed to delivering top-quality glass products without compromise.
+                                    </div>
                                     <div>
                                         <ul>
                                             <li>
-                                                <i className="fa-regular fa-circle-check"></i> Timely Delivery with Secure Packaging
+                                                <i className="fa-regular fa-circle-check " aria-label="checkmark icon"></i> Timely Delivery with Secure Packaging
                                             </li>
                                             <li>
-                                                <i className="fa-regular fa-circle-check"></i> Dealer Partnerships & Regional Distribution
+                                                <i className="fa-regular fa-circle-check" aria-label="checkmark icon"></i> Dealer Partnerships & Regional Distribution
                                             </li>
                                         </ul>
                                     </div>
                                     <div className='slide-btns'>
-                                        <button className="diagonal-bar-fill">Contact Support</button>
-                                        <button className="diagonal-bar-fill">View Services</button>
+                                        <button className="hero-btn-1" aria-label="Contact Support via WhatsApp">
+                                            <a href='https://wa.me/1234567890' target='_blank' rel='noopener noreferrer'>Contact Support</a>
+                                        </button>
+                                        <button className="hero-btn-2">
+                                            <a href='#what-we-offer'>
+                                                View Services
+                                            </a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

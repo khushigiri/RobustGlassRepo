@@ -1,5 +1,5 @@
 .copyright-container {
-    background: #7e87f1ad;
+    background: #02052bf2;
     overflow: hidden;
     color: white;
 }
@@ -18,7 +18,7 @@
 
 .cp-row1 a {
     text-decoration: none;
-    color: #00064cad;
+    color: #73cbd1ad;
 }
 
 .cp-row1 p {
@@ -33,7 +33,7 @@
 }
 
 .cp-row2 a:hover {
-    color: #00064cad;
+    color: #7bafc4;
 }
 
 .copyright-content ul {
