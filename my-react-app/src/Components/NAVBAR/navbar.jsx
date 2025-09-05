@@ -63,7 +63,7 @@ const NAVBAR = () => {
                         </div>
                         <div className='nav-links'>
                             <div className='nav-link1'>
-                                <a href='#' aria-label="Navigate to Home"> Home</a>
+                                <a href='/' aria-label="Navigate to Home"> Home</a>
                             </div>
                             <div className='nav-link2'>
                                 <a href='#about-us' aria-label="Navigate to About Us">About Us</a>

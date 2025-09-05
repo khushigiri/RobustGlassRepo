@@ -46,7 +46,7 @@ const FAQS = () => {
 
                     <div className="faqs-buttons">
                         <button className='faq-btn-1' aria-label="Download our brochure">
-                            <a href='#'>Our Brochure</a>
+                            <a href='/'>Our Brochure</a>
                         </button>
                         <button className='faq-btn-2' aria-label="Talk to our team">
                             <a href='#form-section'>Talk to Us</a>
