@@ -1,6 +1,6 @@
 import './offer.css'
 
-import archImg from '../../media/arch&deg.jpg';
+import archImg from '../../media/arch-deg.jpg';
 import infraImg from '../../media/inds.jpg';
 import realestateImg from '../../media/est&intr.jpg';
 
