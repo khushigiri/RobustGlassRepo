@@ -131,7 +131,7 @@ const WORKS = () => {
                                         <img src={mailicon} alt='Mail Support Icon' />
                                     </div>
                                     <div>
-                                        <a href='mailto:xyz@gmail.com' target='_blank'>
+                                        <a href='mailto:xyz@gmail.com' target='_blank' rel="noreferrer">
                                             <p>
                                                 <p>xyz@gmail.com</p>
                                             </p>
@@ -144,7 +144,7 @@ const WORKS = () => {
                                         <img src={locicon} alt='Address Support Icon' />
                                     </div>
                                     <div>
-                                        <a href="https://www.google.com/maps?q=Ranchi" target="_blank">
+                                        <a href="https://www.google.com/maps?q=Ranchi" target="_blank" rel="noreferrer">
                                             <p>
                                                 Street, City, District, State - PINCODE
                                             </p>

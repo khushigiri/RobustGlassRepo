@@ -19,10 +19,10 @@ const FOOTER = () => {
                         <p>Robust Glass Pvt. Ltd. offers premium toughened glass solutions for buildings, interiors, and industrial use — ensuring clarity, strength, and safety in every panel.</p>
                     </div>
                     <div className='footer-socials'>
-                        <div><a href="https://www.facebook.com/RobustPvtLtd" target="_blank" aria-label="Facebook"><FaFacebookF /></a></div>
-                        <div><a href="https://wa.me/+911234567890" target="_blank" aria-label="Whatsapp"><IoLogoWhatsapp /></a></div>
-                        <div><a href="https://www.instagram.com/RobustPvtLtd" target="_blank" aria-label="Instagram"><FaInstagram /></a></div>
-                        <div><a href="https://www.youtube.com/channel/RobustPvtLtd" target="_blank" aria-label="Youtube"><FaYoutube /></a></div>
+                        <div><a href="https://www.facebook.com/RobustPvtLtd" target="_blank" aria-label="Facebook" rel="noreferrer"><FaFacebookF /></a></div>
+                        <div><a href="https://wa.me/+911234567890" target="_blank" aria-label="Whatsapp" rel="noreferrer"><IoLogoWhatsapp /></a></div>
+                        <div><a href="https://www.instagram.com/RobustPvtLtd" target="_blank" aria-label="Instagram" rel="noreferrer"><FaInstagram /></a></div>
+                        <div><a href="https://www.youtube.com/channel/RobustPvtLtd" target="_blank" aria-label="Youtube" rel="noreferrer"><FaYoutube /></a></div>
                     </div>
                 </div>
                 <div className="row2">
@@ -71,7 +71,7 @@ const FOOTER = () => {
                     </div>
                     <div className='footer-contact'>
                         <div className='contact-no'>
-                            <a href="https://wa.me/911234567890" target="_blank">
+                            <a href="https://wa.me/911234567890" target="_blank" rel="noreferrer">
                                 <FaPhoneVolume className='call-icon' /> +91 12345 67890 < FaArrowRight className='footer-arrow' />
                             </a>
                         </div>

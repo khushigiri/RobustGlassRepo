@@ -34,7 +34,7 @@ const NAVBAR = () => {
 
                 <div className='lower-bar-text'>
                     <div className='mail-text'>
-                        <a href='mailto:xyz@gmail.com' target='_blank'>
+                        <a href='mailto:xyz@gmail.com' target='_blank' rel="noreferrer">
                             <p>
                                 <MdOutgoingMail className='mail-text-icon' aria-label="Email icon" />
                                 xyz@gmail.com
@@ -42,7 +42,7 @@ const NAVBAR = () => {
                         </a>
                     </div>
                     <div className='addr-text'>
-                        <a href="https://www.google.com/maps?q=Ranchi" target="_blank">
+                        <a href="https://www.google.com/maps?q=Ranchi" target="_blank" rel="noreferrer">
                             <p>
                                 <FaMapLocationDot className='addr-text-icon' aria-label="Location icon" />
                                 Street, City, District, State - PINCODE
@@ -57,7 +57,7 @@ const NAVBAR = () => {
                 <nav className='nav-bar ' >
                     <div className='navbar-contents'>
                         <div className='nav-logo'>
-                            <a href="https://wa.me/+911234567890" target="_blank">
+                            <a href="https://wa.me/+911234567890" target="_blank" rel="noreferrer">
                                 <img src={LOGO} alt='Company Logo with Name' />
                             </a>
                         </div>
